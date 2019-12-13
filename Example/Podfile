@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EASliderView_Example' do
+  pod 'EASliderView', :path => '../'
+
+  target 'EASliderView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
