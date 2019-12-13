@@ -1,0 +1,22 @@
+{
+  "name": "EASliderView",
+  "version": "0.1.0",
+  "summary": "A short description of EASliderView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/emre-aydin-matriks/EASliderView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "emre-aydin-matriks": "ea@ea.tc"
+  },
+  "source": {
+    "git": "https://github.com/emre-aydin-matriks/EASliderView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EASliderView/Classes/**/*"
+}

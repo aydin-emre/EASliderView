@@ -1,0 +1,16 @@
+PODS:
+  - EASliderView (0.1.0)
+
+DEPENDENCIES:
+  - EASliderView (from `../`)
+
+EXTERNAL SOURCES:
+  EASliderView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EASliderView: d6005dc2568bb356a26b4928ac4e7ec55ca89060
+
+PODFILE CHECKSUM: 00ed4e27c8b869e114adf1df8d9282f250016bed
+
+COCOAPODS: 1.8.4

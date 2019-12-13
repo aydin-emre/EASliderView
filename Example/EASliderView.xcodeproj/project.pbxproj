@@ -38,11 +38,11 @@
 		607FACE51AFB9204008FA782 /* EASliderView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EASliderView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		78483A24964D7F195C22E111 /* EASliderView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EASliderView.podspec; path = ../EASliderView.podspec; sourceTree = "<group>"; };
-		A7966376B2F6C05E4582AB50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		78483A24964D7F195C22E111 /* EASliderView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EASliderView.podspec; path = ../EASliderView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7966376B2F6C05E4582AB50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BBDDBE1011F45FE417F736B0 /* Pods-EASliderView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EASliderView_Tests.release.xcconfig"; path = "Target Support Files/Pods-EASliderView_Tests/Pods-EASliderView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BD09FEA8DA200B863AE5222C /* Pods-EASliderView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EASliderView_Example.release.xcconfig"; path = "Target Support Files/Pods-EASliderView_Example/Pods-EASliderView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C44B67A53B8AD07A37A9F7B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C44B67A53B8AD07A37A9F7B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C53CAC3897293D6EEB83802F /* Pods-EASliderView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EASliderView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EASliderView_Tests/Pods-EASliderView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3DBC1868E7711EA01578EC1 /* Pods-EASliderView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EASliderView_Example.debug.xcconfig"; path = "Target Support Files/Pods-EASliderView_Example/Pods-EASliderView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E5B76907E7EF3E8112515C1F /* Pods_EASliderView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EASliderView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				C53CAC3897293D6EEB83802F /* Pods-EASliderView_Tests.debug.xcconfig */,
 				BBDDBE1011F45FE417F736B0 /* Pods-EASliderView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -484,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -499,7 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -520,7 +520,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EASliderView_Example.app/EASliderView_Example";
 			};
 			name = Debug;
@@ -538,7 +538,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EASliderView_Example.app/EASliderView_Example";
 			};
 			name = Release;
