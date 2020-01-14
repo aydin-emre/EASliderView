@@ -53,12 +53,12 @@ sliderView.onInfoButtonPressed = {
 
 And also you can customize the slider.
 ```swift
-sliderView.dotActiveColor = .brown
+sliderView.dotActiveColor = .black
 sliderView.dotPassiveColor = .red
 sliderView.lineActiveColor = .red
 sliderView.linePassiveColor = .black
-sliderView.thumbColor = .brown
-        
+sliderView.thumbColor = .darkText
+
 sliderView.titleLabelFont = UIFont.systemFont(ofSize: 14)
 sliderView.titleLabelColor = .black
 sliderView.columnLabelFont = UIFont.systemFont(ofSize: 13)
