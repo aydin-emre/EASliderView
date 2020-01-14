@@ -21,12 +21,19 @@ class ViewController: UIViewController {
         sliderView.title = "Title here"
         sliderView.columns = ["Option 1", "Option 2", "Option 3"]
         
+        sliderView.showInfoButton = true // default is false
+        sliderView.onInfoButtonPressed = {
+            print("Info button pressed..")
+        }
+        
+        sliderView.showColumnLabels = true // default is true
+        
         // Customizing slider
-        sliderView.dotActiveColor = .brown
+        sliderView.dotActiveColor = .black
         sliderView.dotPassiveColor = .red
         sliderView.lineActiveColor = .red
         sliderView.linePassiveColor = .black
-        sliderView.thumbColor = .brown
+        sliderView.thumbColor = .darkText
         
         sliderView.titleLabelFont = UIFont.systemFont(ofSize: 14)
         sliderView.titleLabelColor = .black

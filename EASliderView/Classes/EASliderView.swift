@@ -17,9 +17,9 @@ import UIKit
     @IBOutlet weak var sliderContainerView: UIView!
     @IBOutlet weak var slider: UISlider!
     
-    var onInfoButtonPressed: (()->Void)?
-    var onSliderValueSelected: ((_ index: Int)->Void)?
-    var value = 0 {
+    public var onInfoButtonPressed: (()->Void)?
+    public var onSliderValueSelected: ((_ index: Int)->Void)?
+    public var value = 0 {
         didSet {
             if value <= Int(slider.maximumValue) {
                 setSliderValue(value)
@@ -65,28 +65,6 @@ import UIKit
         }
     }
     
-    public var dotActiveColor = UIColor.blue
-    
-    public var dotPassiveColor = UIColor.gray
-    
-    public var lineActiveColor: UIColor = UIColor.blue {
-        didSet {
-            slider.minimumTrackTintColor = lineActiveColor
-        }
-    }
-    
-    public var linePassiveColor: UIColor = UIColor.gray {
-        didSet {
-            slider.maximumTrackTintColor = linePassiveColor
-        }
-    }
-    
-    public var thumbColor: UIColor = UIColor.blue {
-        didSet {
-            slider.thumbTintColor = thumbColor
-        }
-    }
-    
     private var dotView: SliderDotView!
     
     private var columnLabel: UILabel!
@@ -121,7 +99,6 @@ import UIKit
     @IBAction func infoButtonPressed(_ sender: UIButton) {
         onInfoButtonPressed?()
     }
-    
     
     func setupTitleLabels() {
         columnLabelsContainerStackView.arrangedSubviews.forEach {
@@ -213,16 +190,38 @@ import UIKit
     }
     
     //MARK: - Inspectables
-    @IBInspectable var showTitles: Bool = true {
+    @IBInspectable public var showColumnLabels: Bool = true {
         didSet {
-            columnLabelsContainerStackView.isHidden = !showTitles
+            columnLabelsContainerStackView.isHidden = !showColumnLabels
             layoutIfNeeded()
         }
     }
     
-    @IBInspectable var showInfoButton: Bool = false {
+    @IBInspectable public var showInfoButton: Bool = false {
         didSet {
             infoButtonContainerView.isHidden = !showInfoButton
+        }
+    }
+    
+    @IBInspectable public var dotActiveColor = UIColor.blue
+    
+    @IBInspectable public var dotPassiveColor = UIColor.gray
+    
+    @IBInspectable public var lineActiveColor: UIColor = UIColor.blue {
+        didSet {
+            slider.minimumTrackTintColor = lineActiveColor
+        }
+    }
+    
+    @IBInspectable public var linePassiveColor: UIColor = UIColor.gray {
+        didSet {
+            slider.maximumTrackTintColor = linePassiveColor
+        }
+    }
+    
+    @IBInspectable public var thumbColor: UIColor = UIColor.blue {
+        didSet {
+            slider.thumbTintColor = thumbColor
         }
     }
     

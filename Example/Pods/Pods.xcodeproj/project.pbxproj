@@ -8,19 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		08695979DD435569E90E72C9470BB9D8 /* Pods-EASliderView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA05DB38C8282E213111F636EB83370 /* Pods-EASliderView_Example-dummy.m */; };
-		0ADCACBFF567C725F84A174E8F1D1718 /* EASliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7D99AF44DD43A5C1F00D0B87792EC75 /* EASliderView.xib */; };
+		09F02E1A5D8801519FA3006DB46BA349 /* SliderDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58A62E973CD93EF95B8742A299C1C34 /* SliderDotView.swift */; };
+		19DA150A5BB05C12D9CF25F86F3AAF47 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34E445DC6A49FEC664ABEC386F2766B /* DesignableView.swift */; };
+		279DDA57A05353D2E164FA42640A84A7 /* EASliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D33CDB0E40DA1CFBECDD68192D0CBD1 /* EASliderView.swift */; };
+		4B1EB7164FF3E1E0DB2A6E9988185E12 /* EASliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 057A190FC145EF25FECBED6AF389140C /* EASliderView.xib */; };
+		63A0E332B935E8017C1A59211443F1E2 /* EASliderView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03CD78102753CAF91049791ED464A7E3 /* EASliderView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64D330BAC132AB49162758B76B48C9F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6AB85212FE4B60789DCD0FBDBACF911A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		72227B2B7B1DC02F4987421318F2FFC8 /* Pods-EASliderView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9552F449047D54E05BCBC4031325D40 /* Pods-EASliderView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7396E551273053A07CF44643665AA536 /* EASliderView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E4EFB03588BCDECDBEE4ADB740A65 /* EASliderView-dummy.m */; };
-		76BF84597427C863B5DCCB41A752BC24 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E42B00649CD74363E75A2E7803018E /* DesignableView.swift */; };
-		7990DD63CFB8FC84DAF9D862E2FF38CC /* EASliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085E2FA9FBC532EF7995ADE76CAAD79 /* EASliderView.swift */; };
-		875EE46D49D156388BF46F6DDC18772F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		844BB258FE44F9B2137421600D4DB812 /* SliderDotView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E256D9618B53A9B6C438E0E5DB54088A /* SliderDotView.xib */; };
+		A2FCD8B14BC43CB2858E11048D740CFB /* EASliderView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E03A5E0F8F2881ACAEFBBC9F09E37F63 /* EASliderView-dummy.m */; };
 		AFAF3C7E8D78CDA8C82093BB80A5E675 /* Pods-EASliderView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 367272C1C09270E5F91CF697B7FD5853 /* Pods-EASliderView_Tests-dummy.m */; };
-		CA3DC9EE530DD549E2362C7D3CDE3123 /* SliderDotView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B021B8842A725BD5B220AFE113C6C5F /* SliderDotView.xib */; };
+		B4B49F01B995AD226011F431E95AE191 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E236CCA74D908B3073EAC5EDAE416DA /* Images.xcassets */; };
 		DDC6CEB1C2A6FFD50D45DEA02894F6CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		ECED3A9D8D0853C926C48AEABB894A73 /* Pods-EASliderView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DD7603D38C82312B80D414BFF2BE3AE /* Pods-EASliderView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF0C4DD60CB0924AD8225809EC1201A1 /* EASliderView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3804C6AEF77610ECB54AFF987957C0 /* EASliderView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4D77E675CE2A3BF43AF96F1DA3927A7 /* SliderDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40A8946891BEEE33E16F43B61C9A19 /* SliderDotView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,25 +42,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03CD78102753CAF91049791ED464A7E3 /* EASliderView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EASliderView-umbrella.h"; sourceTree = "<group>"; };
+		057A190FC145EF25FECBED6AF389140C /* EASliderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EASliderView.xib; path = EASliderView/Assets/EASliderView.xib; sourceTree = "<group>"; };
+		14A06542FAF5478EE4AD682C69464C95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1B0EA437B3C482977D6F5527C7B1DB54 /* Pods-EASliderView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EASliderView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1F7F5A55409946010701625340C6EC46 /* Pods-EASliderView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EASliderView_Tests-Info.plist"; sourceTree = "<group>"; };
 		20184D971AB05BBF16B156201582B70E /* Pods-EASliderView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EASliderView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		23E0E75D4962152C8E26CCD154428A04 /* EASliderView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EASliderView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		248CFD7C83F25DF6EBF72D98B612875B /* Pods-EASliderView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EASliderView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2BA15BFB338CC006EF7684622C2E86B2 /* Pods-EASliderView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EASliderView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2D40A8946891BEEE33E16F43B61C9A19 /* SliderDotView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderDotView.swift; path = EASliderView/Classes/SliderDotView.swift; sourceTree = "<group>"; };
+		2FDF3B7FE4970A50976C3ACDA82CC4EF /* EASliderView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EASliderView-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		367272C1C09270E5F91CF697B7FD5853 /* Pods-EASliderView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EASliderView_Tests-dummy.m"; sourceTree = "<group>"; };
 		41509C83092A58C09F8744CF16A939BC /* Pods-EASliderView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EASliderView_Example.modulemap"; sourceTree = "<group>"; };
-		45477C1727171F585F614F7FFE09CFD7 /* EASliderView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EASliderView-prefix.pch"; sourceTree = "<group>"; };
+		48A20C04EF2FB16CD51BFC7392AF7422 /* EASliderView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EASliderView.release.xcconfig; sourceTree = "<group>"; };
+		4AB5EDF313097D95319E9CB723648ECC /* EASliderView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EASliderView.debug.xcconfig; sourceTree = "<group>"; };
 		52493894165F8B28203F5A85F553C8A5 /* Pods-EASliderView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EASliderView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		538EBD182B20CB2473B954AB8E09989E /* EASliderView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EASliderView-Info.plist"; sourceTree = "<group>"; };
-		5F47886B3661557DEBF241E47C38340A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6833F9A842E9E586B1FE8E0FBC8E8AEA /* EASliderView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EASliderView.debug.xcconfig; sourceTree = "<group>"; };
 		6CA05DB38C8282E213111F636EB83370 /* Pods-EASliderView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EASliderView_Example-dummy.m"; sourceTree = "<group>"; };
-		7B021B8842A725BD5B220AFE113C6C5F /* SliderDotView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SliderDotView.xib; path = EASliderView/Assets/SliderDotView.xib; sourceTree = "<group>"; };
-		7F5E4EFB03588BCDECDBEE4ADB740A65 /* EASliderView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EASliderView-dummy.m"; sourceTree = "<group>"; };
+		7A8CE4884F24372F944E9950EEB8B25D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8C4D4DC79E512BFAB86FB065D1E88A18 /* Pods-EASliderView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EASliderView_Tests.modulemap"; sourceTree = "<group>"; };
+		8D33CDB0E40DA1CFBECDD68192D0CBD1 /* EASliderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EASliderView.swift; path = EASliderView/Classes/EASliderView.swift; sourceTree = "<group>"; };
 		8DD7603D38C82312B80D414BFF2BE3AE /* Pods-EASliderView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EASliderView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8E236CCA74D908B3073EAC5EDAE416DA /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EASliderView/Assets/Images.xcassets; sourceTree = "<group>"; };
 		9B4562042B53B5EC142060DA1740E2A1 /* Pods-EASliderView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EASliderView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC00601B39F0BB55EE3AAA2CED8B445 /* Pods-EASliderView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EASliderView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,27 +72,17 @@
 		AD22CB252D14DAE1734828EC09BE6373 /* Pods_EASliderView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EASliderView_Tests.framework; path = "Pods-EASliderView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E9A2F6337E44218E05F31C135A0FB9 /* Pods-EASliderView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EASliderView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA3F49A92D66082F6D68DB709EFE1C4F /* Pods_EASliderView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EASliderView_Example.framework; path = "Pods-EASliderView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF8D9B610DE99ECB64BD5440AA097E0B /* EASliderView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EASliderView.modulemap; sourceTree = "<group>"; };
-		CC3804C6AEF77610ECB54AFF987957C0 /* EASliderView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EASliderView-umbrella.h"; sourceTree = "<group>"; };
-		CEEE40438ACCFC0C1FAE8BDE19B6E91F /* EASliderView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EASliderView.release.xcconfig; sourceTree = "<group>"; };
 		D22741D390328F75FCC1E81BFDE226D1 /* EASliderView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EASliderView.framework; path = EASliderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7E42B00649CD74363E75A2E7803018E /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = EASliderView/Classes/DesignableView.swift; sourceTree = "<group>"; };
-		E01930D823B7BA05B810489A31040662 /* EASliderView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EASliderView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F085E2FA9FBC532EF7995ADE76CAAD79 /* EASliderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EASliderView.swift; path = EASliderView/Classes/EASliderView.swift; sourceTree = "<group>"; };
-		F7D99AF44DD43A5C1F00D0B87792EC75 /* EASliderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EASliderView.xib; path = EASliderView/Assets/EASliderView.xib; sourceTree = "<group>"; };
+		D58A62E973CD93EF95B8742A299C1C34 /* SliderDotView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderDotView.swift; path = EASliderView/Classes/SliderDotView.swift; sourceTree = "<group>"; };
+		E03A5E0F8F2881ACAEFBBC9F09E37F63 /* EASliderView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EASliderView-dummy.m"; sourceTree = "<group>"; };
+		E256D9618B53A9B6C438E0E5DB54088A /* SliderDotView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SliderDotView.xib; path = EASliderView/Assets/SliderDotView.xib; sourceTree = "<group>"; };
+		EA0AC30E536AC6E0567E0DD0869FC817 /* EASliderView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EASliderView-prefix.pch"; sourceTree = "<group>"; };
+		F34E445DC6A49FEC664ABEC386F2766B /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = EASliderView/Classes/DesignableView.swift; sourceTree = "<group>"; };
+		F4434F281B6FA032E2B73BCD756B3C86 /* EASliderView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EASliderView.modulemap; sourceTree = "<group>"; };
 		F9552F449047D54E05BCBC4031325D40 /* Pods-EASliderView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EASliderView_Example-umbrella.h"; sourceTree = "<group>"; };
-		FDB37D76804E79C1A914870765065761 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2DA1B85D7B214FFB13B6FAB16D594ACD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				875EE46D49D156388BF46F6DDC18772F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BA1730C3B8D74A519D63DC9C2D3685AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,18 +99,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5CBF9F04E3ED07CC223B4AB0E15F220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB85212FE4B60789DCD0FBDBACF911A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BF0A43A5E50B59CBBECE294B14C0E50 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F7D99AF44DD43A5C1F00D0B87792EC75 /* EASliderView.xib */,
-				7B021B8842A725BD5B220AFE113C6C5F /* SliderDotView.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		2832F0206F6DDE9612E30860186983EE /* Pods-EASliderView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,35 +136,59 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		57A39827D7439DF84D25A3B9B526D056 /* Support Files */ = {
+		5CCAF31BBA4039A577F59CA2F86596F7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BF8D9B610DE99ECB64BD5440AA097E0B /* EASliderView.modulemap */,
-				7F5E4EFB03588BCDECDBEE4ADB740A65 /* EASliderView-dummy.m */,
-				538EBD182B20CB2473B954AB8E09989E /* EASliderView-Info.plist */,
-				45477C1727171F585F614F7FFE09CFD7 /* EASliderView-prefix.pch */,
-				CC3804C6AEF77610ECB54AFF987957C0 /* EASliderView-umbrella.h */,
-				6833F9A842E9E586B1FE8E0FBC8E8AEA /* EASliderView.debug.xcconfig */,
-				CEEE40438ACCFC0C1FAE8BDE19B6E91F /* EASliderView.release.xcconfig */,
+				057A190FC145EF25FECBED6AF389140C /* EASliderView.xib */,
+				8E236CCA74D908B3073EAC5EDAE416DA /* Images.xcassets */,
+				E256D9618B53A9B6C438E0E5DB54088A /* SliderDotView.xib */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EASliderView";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		6A79CF7C85454257C0824ED6F35A286F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F0A15D8226AE9F04399E3BD0C23820B5 /* EASliderView */,
+				A04040507F38E748E64334DABD30248D /* EASliderView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A0C09FC4EDE834C425FF72577958020B /* Pod */ = {
+		8C8B95F77B090362E5F0DFB8526E28D1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E01930D823B7BA05B810489A31040662 /* EASliderView.podspec */,
-				FDB37D76804E79C1A914870765065761 /* LICENSE */,
-				5F47886B3661557DEBF241E47C38340A /* README.md */,
+				F4434F281B6FA032E2B73BCD756B3C86 /* EASliderView.modulemap */,
+				E03A5E0F8F2881ACAEFBBC9F09E37F63 /* EASliderView-dummy.m */,
+				2FDF3B7FE4970A50976C3ACDA82CC4EF /* EASliderView-Info.plist */,
+				EA0AC30E536AC6E0567E0DD0869FC817 /* EASliderView-prefix.pch */,
+				03CD78102753CAF91049791ED464A7E3 /* EASliderView-umbrella.h */,
+				4AB5EDF313097D95319E9CB723648ECC /* EASliderView.debug.xcconfig */,
+				48A20C04EF2FB16CD51BFC7392AF7422 /* EASliderView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EASliderView";
+			sourceTree = "<group>";
+		};
+		A04040507F38E748E64334DABD30248D /* EASliderView */ = {
+			isa = PBXGroup;
+			children = (
+				F34E445DC6A49FEC664ABEC386F2766B /* DesignableView.swift */,
+				8D33CDB0E40DA1CFBECDD68192D0CBD1 /* EASliderView.swift */,
+				D58A62E973CD93EF95B8742A299C1C34 /* SliderDotView.swift */,
+				B0C1FD192BEE7548A2B57D51284AE333 /* Pod */,
+				5CCAF31BBA4039A577F59CA2F86596F7 /* Resources */,
+				8C8B95F77B090362E5F0DFB8526E28D1 /* Support Files */,
+			);
+			name = EASliderView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B0C1FD192BEE7548A2B57D51284AE333 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				23E0E75D4962152C8E26CCD154428A04 /* EASliderView.podspec */,
+				7A8CE4884F24372F944E9950EEB8B25D /* LICENSE */,
+				14A06542FAF5478EE4AD682C69464C95 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -229,31 +246,9 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F0A15D8226AE9F04399E3BD0C23820B5 /* EASliderView */ = {
-			isa = PBXGroup;
-			children = (
-				D7E42B00649CD74363E75A2E7803018E /* DesignableView.swift */,
-				F085E2FA9FBC532EF7995ADE76CAAD79 /* EASliderView.swift */,
-				2D40A8946891BEEE33E16F43B61C9A19 /* SliderDotView.swift */,
-				A0C09FC4EDE834C425FF72577958020B /* Pod */,
-				0BF0A43A5E50B59CBBECE294B14C0E50 /* Resources */,
-				57A39827D7439DF84D25A3B9B526D056 /* Support Files */,
-			);
-			name = EASliderView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		40A78AF107B8EE9EFB86F9587873C61F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF0C4DD60CB0924AD8225809EC1201A1 /* EASliderView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5FEB5383692C8BAA3869BEE367EA5108 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,17 +265,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED969F3996DF12D9F93A44445D7EABFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A0E332B935E8017C1A59211443F1E2 /* EASliderView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		494CEA9A05F5E13989C635AFA8A660EF /* EASliderView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B10336BA4B7C797B0D0500CBADB01E1F /* Build configuration list for PBXNativeTarget "EASliderView" */;
+			buildConfigurationList = 9CB895A918AE26E5AC18E140312907EB /* Build configuration list for PBXNativeTarget "EASliderView" */;
 			buildPhases = (
-				40A78AF107B8EE9EFB86F9587873C61F /* Headers */,
-				3FE179D1B6B7F5194E96D7F47DCA69E4 /* Sources */,
-				2DA1B85D7B214FFB13B6FAB16D594ACD /* Frameworks */,
-				9080C40B5F50D2757B3AA00F9F230CCD /* Resources */,
+				ED969F3996DF12D9F93A44445D7EABFB /* Headers */,
+				E4C981D2291CF38498F0A141C70AFACA /* Sources */,
+				F5CBF9F04E3ED07CC223B4AB0E15F220 /* Frameworks */,
+				5EC700C16546AA6810D34ED5646F1777 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -366,12 +369,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9080C40B5F50D2757B3AA00F9F230CCD /* Resources */ = {
+		5EC700C16546AA6810D34ED5646F1777 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ADCACBFF567C725F84A174E8F1D1718 /* EASliderView.xib in Resources */,
-				CA3DC9EE530DD549E2362C7D3CDE3123 /* SliderDotView.xib in Resources */,
+				4B1EB7164FF3E1E0DB2A6E9988185E12 /* EASliderView.xib in Resources */,
+				B4B49F01B995AD226011F431E95AE191 /* Images.xcassets in Resources */,
+				844BB258FE44F9B2137421600D4DB812 /* SliderDotView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,17 +389,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FE179D1B6B7F5194E96D7F47DCA69E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76BF84597427C863B5DCCB41A752BC24 /* DesignableView.swift in Sources */,
-				7396E551273053A07CF44643665AA536 /* EASliderView-dummy.m in Sources */,
-				7990DD63CFB8FC84DAF9D862E2FF38CC /* EASliderView.swift in Sources */,
-				F4D77E675CE2A3BF43AF96F1DA3927A7 /* SliderDotView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4A134FE4006187335665D6677BC97BF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,6 +402,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				08695979DD435569E90E72C9470BB9D8 /* Pods-EASliderView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C981D2291CF38498F0A141C70AFACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DA150A5BB05C12D9CF25F86F3AAF47 /* DesignableView.swift in Sources */,
+				A2FCD8B14BC43CB2858E11048D740CFB /* EASliderView-dummy.m in Sources */,
+				279DDA57A05353D2E164FA42640A84A7 /* EASliderView.swift in Sources */,
+				09F02E1A5D8801519FA3006DB46BA349 /* SliderDotView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,43 +533,9 @@
 			};
 			name = Release;
 		};
-		93AB806911D02302ADE71791E96606D1 /* Debug */ = {
+		77BC471A85353B882967BCB1CEDC1723 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DC00601B39F0BB55EE3AAA2CED8B445 /* Pods-EASliderView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EASliderView_Tests/Pods-EASliderView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EASliderView_Tests/Pods-EASliderView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A4EBEC054A734460DCACBED8D5608AF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEEE40438ACCFC0C1FAE8BDE19B6E91F /* EASliderView.release.xcconfig */;
+			baseConfigurationReference = 48A20C04EF2FB16CD51BFC7392AF7422 /* EASliderView.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -596,10 +566,11 @@
 			};
 			name = Release;
 		};
-		A9ECA61B5DF82320C1DD7D86E8CED8A5 /* Debug */ = {
+		93AB806911D02302ADE71791E96606D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6833F9A842E9E586B1FE8E0FBC8E8AEA /* EASliderView.debug.xcconfig */;
+			baseConfigurationReference = 9DC00601B39F0BB55EE3AAA2CED8B445 /* Pods-EASliderView_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -610,18 +581,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EASliderView/EASliderView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EASliderView/EASliderView-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-EASliderView_Tests/Pods-EASliderView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EASliderView/EASliderView.modulemap";
-				PRODUCT_MODULE_NAME = EASliderView;
-				PRODUCT_NAME = EASliderView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EASliderView_Tests/Pods-EASliderView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -687,6 +659,38 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		B54E21CB93125AA7A041CE838BE67498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB5EDF313097D95319E9CB723648ECC /* EASliderView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EASliderView/EASliderView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EASliderView/EASliderView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EASliderView/EASliderView.modulemap";
+				PRODUCT_MODULE_NAME = EASliderView;
+				PRODUCT_NAME = EASliderView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		C5E8FDEE729AABB6235C00B3E33860BF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -787,11 +791,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B10336BA4B7C797B0D0500CBADB01E1F /* Build configuration list for PBXNativeTarget "EASliderView" */ = {
+		9CB895A918AE26E5AC18E140312907EB /* Build configuration list for PBXNativeTarget "EASliderView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9ECA61B5DF82320C1DD7D86E8CED8A5 /* Debug */,
-				A4EBEC054A734460DCACBED8D5608AF5 /* Release */,
+				B54E21CB93125AA7A041CE838BE67498 /* Debug */,
+				77BC471A85353B882967BCB1CEDC1723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

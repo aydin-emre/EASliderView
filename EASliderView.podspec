@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EASliderView'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'EASliderView is a slider view which includes dots.'
 
 # This description is used to generate tags and improve search results.
