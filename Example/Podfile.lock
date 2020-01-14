@@ -1,5 +1,5 @@
 PODS:
-  - EASliderView (0.1.0)
+  - EASliderView (0.1.1)
 
 DEPENDENCIES:
   - EASliderView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EASliderView: 067b6228f166eb6f649e1a9bfb7eaf5f8934f599
+  EASliderView: 90f0fd95f82da3a5d920ca2b7596c49e7b885ca3
 
 PODFILE CHECKSUM: 00ed4e27c8b869e114adf1df8d9282f250016bed
 
