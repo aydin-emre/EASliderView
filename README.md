@@ -7,8 +7,10 @@
 
 Default EASliderView:
 ![EASliderView default](https://i.ibb.co/RNCwQSF/Simulator-Screen-Shot-i-Phone-11-Pro-2020-01-14-at-11-39-57.png)
+EASliderView with info button:
+![EASliderView with info button](https://i.ibb.co/N3jghbd/Simulator-Screen-Shot-i-Phone-11-Pro-2020-01-14-at-12-38-40.png)
 Customized example:
-![EASliderView customized](https://i.ibb.co/j4Y398g/Simulator-Screen-Shot-i-Phone-11-Pro-2020-01-14-at-11-44-56.png)
+![EASliderView customized](https://i.ibb.co/whfgYVM/Simulator-Screen-Shot-i-Phone-11-Pro-2020-01-14-at-12-40-22.png)
 
 ## Example
 
@@ -38,6 +40,15 @@ For instance, using storyboard, create an empty view and in Identity Inspector c
 ```swift
 sliderView.title = "Title here"
 sliderView.columns = ["Option 1", "Option 2", "Option 3"]
+```
+You can show or hide info button and column labels. And can detect info button pressed with using onInfoButtonPressed
+```swift
+sliderView.showColumnLabels = true // default is true
+
+sliderView.showInfoButton = true // default is false
+sliderView.onInfoButtonPressed = {
+    print("Info button pressed..")
+}
 ```
 
 And also you can customize the slider.
