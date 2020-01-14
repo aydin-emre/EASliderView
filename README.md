@@ -41,6 +41,12 @@ For instance, using storyboard, create an empty view and in Identity Inspector c
 sliderView.title = "Title here"
 sliderView.columns = ["Option 1", "Option 2", "Option 3"]
 ```
+You can detect selected values by using onSliderValueSelected
+```swift
+sliderView.onSliderValueSelected = { (index) in
+    print("Selected index: \(index)")
+}
+```
 You can show or hide info button and column labels. And can detect info button pressed with using onInfoButtonPressed
 ```swift
 sliderView.showColumnLabels = true // default is true
