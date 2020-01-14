@@ -1,6 +1,6 @@
 # EASliderView
 
-[![CI Status](https://img.shields.io/travis/emre-aydin-matriks/EASliderView.svg?style=flat)](https://travis-ci.org/emre-aydin-matriks/EASliderView)
+[![CI Status](https://img.shields.io/travis/aydin-emre/EASliderView.svg?style=flat)](https://travis-ci.org/aydin-emre/EASliderView)
 [![Version](https://img.shields.io/cocoapods/v/EASliderView.svg?style=flat)](https://cocoapods.org/pods/EASliderView)
 [![License](https://img.shields.io/cocoapods/l/EASliderView.svg?style=flat)](https://cocoapods.org/pods/EASliderView)
 [![Platform](https://img.shields.io/cocoapods/p/EASliderView.svg?style=flat)](https://cocoapods.org/pods/EASliderView)
@@ -22,7 +22,7 @@ pod 'EASliderView'
 
 ## Author
 
-emre-aydin-matriks, ea@ea.tc
+aydin-emre, ea@ea.tc
 
 ## License
 

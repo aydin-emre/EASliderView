@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.source_files = 'EASliderView/Classes/**/*'
-#  s.resources = 'EASliderView/Assets/**/*.*'
+  s.resources = 'EASliderView/Assets/**/*.*'
 #  s.resource_bundles = {
 #      'EASliderView' => ['EASliderView/Assets/**/*.*']
 #  }

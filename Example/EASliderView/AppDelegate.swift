@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  EASliderView
 //
-//  Created by emre-aydin-matriks on 12/13/2019.
-//  Copyright (c) 2019 emre-aydin-matriks. All rights reserved.
+//  Created by Emre AYDIN on 12/13/2019.
+//  Copyright © 2019 Emre AYDIN. All rights reserved.
 //
 
 import UIKit
