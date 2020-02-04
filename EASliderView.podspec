@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EASliderView'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'EASliderView is a slider view which includes dots.'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/aydin-emre/EASliderView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
 
   s.source_files = 'EASliderView/Classes/**/*'
